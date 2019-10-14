@@ -28,6 +28,10 @@ button {
 	position: absolute;
 	transform: translate(600px,100px);
 }
+.loginpindah1{
+    position: absolute;
+    transform: translate(720px,100px);
+}
 button:hover {
     opacity: 0.8;
 }

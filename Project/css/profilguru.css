@@ -5,6 +5,9 @@
 }
 body {
   margin: 0;
+  background-repeat: no-repeat;
+    background-size: 1480px auto;
+    background-attachment: fixed;
 }
 
 #menusimpel ul {
@@ -43,14 +46,16 @@ body {
   	background-color: #555;
   	color: white;
 }
+
 .box1{
+  position: fixed;
 	background-color: lightgrey;
-  	width: 200px;
-  	height: 50px;
-  	background-color: #00ACEE;
-  	transform: translate(1120px,-10px);
-  	text-align: center;
-  	font-size: 30px;
+  width: 200px;
+  height: 50px;
+  background-color: #00ACEE;
+  transform: translate(1120px,-10px);
+  text-align: center;
+  font-size: 30px;
 }
 .icon1{
 	float: left;
@@ -72,35 +77,6 @@ table {
   border: 2px solid black;
 }
 
-.hapusdata{
-  position: fixed;
-  background-color: #00CED1;
-    width: 200px;
-    height: 50px;
-    transform: translate(320px,480px);
-    text-align: center;
-    font-size: 25px;
-    text-decoration: none;
-}
-.hapusdata a{
-  text-decoration: none;
-  color: black;
-  
-}
-.tambahdata {
-  position: fixed;
-  background-color: #00CED1;
-    width: 200px;
-    height: 50px;
-    transform: translate(620px,480px);
-    text-align: center;
-    font-size: 25px;
-    text-decoration: none;
-}
-.tambahdata a{
-  text-decoration: none;
-  color: black;
-}
 .ubah {
   position: fixed;
   background-color: #00CED1;
@@ -118,7 +94,7 @@ table {
 
 #geser{
   position: absolute;
-  transform: translate(500px,80px);
+  transform: translate(-300px,50px);
 }
 
 #box2 {
@@ -139,5 +115,24 @@ table {
   font-size: 20px;
   transform: translate(150px,10px);
 }
-
-
+.tabeltengah{
+  transform: translate(100px,100px);
+}
+table,tr,td{
+    font-family: century gothic;
+    color: black ;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    }
+ .posisi{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    left: 160px;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+    }

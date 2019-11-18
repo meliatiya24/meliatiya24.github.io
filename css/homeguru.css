@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+  margin: 0;
+}
+
+#menusimpel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #DAA520;
+  position: fixed;
+  height: 90%;
+  overflow: auto;
+  border-radius: 30px;
+}
+
+#menusimpel li a {
+  display: block;
+  color: #000;
+  padding: 40px 40px;
+  text-decoration: none;
+  text-align: right;
+  font-size: 20px;
+}
+#menusimpel li a img{
+	width: 30%;
+	height: 30%;
+	float: left;
+
+}
+
+#menusimpel li a.active {
+ 	background-color: #4CAF50;
+  	color: white;
+}
+
+#menusimpel li a:hover:not(.active) {
+  	background-color: #FFE4C4;
+  	color: white;
+}
+.box1{
+	background-color: lightgrey;
+  	width: 200px;
+  	height: 50px;
+  	background-color: #F5F5DC;
+  	transform: translate(1120px,-10px);
+  	text-align: center;
+  	font-size: 30px;
+}
+.icon1{
+	float: left;
+	width: 50px;
+	height: 50px;
+}

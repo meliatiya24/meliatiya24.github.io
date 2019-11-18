@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+  margin: 0;
+
+}
+
+#menusimpel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #DAA520;
+  position: fixed;
+  height: 90%;
+  overflow: auto;
+  border-radius: 30px;
+  
+}
+
+#menusimpel li a {
+  display: block;
+  color: #000;
+  padding: 40px 40px;
+  text-decoration: none;
+  text-align: right;
+  font-size: 20px;
+}
+#menusimpel li a img{
+  width: 30%;
+  height: 30%;
+  float: left;
+
+}
+
+#menusimpel li a.active {
+  background-color: #4CAF50;
+    color: white;
+}
+
+#menusimpel li a:hover:not(.active) {
+    background-color: #FFE4C4;
+    color: white;
+}
+
+.box1{
+  position: fixed;
+	background-color: lightgrey;
+  width: 200px;
+  height: 50px;
+  background-color: #FFEBCD;
+  transform: translate(1120px,-10px);
+  text-align: center;
+  font-size: 30px;
+}
+.icon1{
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+table {
+  position: fixed;
+  transform: translate(480px,50px);
+  text-align: center;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+#box {
+  width: 300px;
+  height: 80px;
+  background-color: pink;
+  border: 2px solid black;
+}
+
+.ubah {
+  position: fixed;
+  background-color: #00CED1;
+    width: 200px;
+    height: 50px;
+    transform: translate(920px,480px);
+    text-align: left;
+    font-size: 25px;
+    text-decoration: none;
+}
+.ubah a{
+  text-decoration: none;
+  color: black;
+}
+
+#geser{
+  position: absolute;
+  transform: translate(-300px,50px);
+}
+
+#box2 {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  background-color: #FFEBCD;
+  border: 2px solid black;
+  text-align: center;
+}
+#box3 {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 20px;
+  transform: translate(150px,10px);
+}
+.tabeltengah{
+  transform: translate(100px,100px);
+}
+table,tr,td{
+    font-family: century gothic;
+    color: black ;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    }
+ .posisi{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    left: 160px;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+    }

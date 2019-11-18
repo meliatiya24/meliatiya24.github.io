@@ -1,0 +1,145 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+  margin: 0;
+}
+
+#menusimpel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #DAA520;
+  position: fixed;
+  height: 90%;
+  overflow: auto;
+  border-radius: 30px;
+}
+
+#menusimpel li a {
+  display: block;
+  color: #000;
+  padding: 40px 40px;
+  text-decoration: none;
+  text-align: right;
+  font-size: 20px;
+}
+#menusimpel li a img{
+	width: 30%;
+	height: 30%;
+	float: left;
+
+}
+
+#menusimpel li a.active {
+ 	background-color: #4CAF50;
+  	color: black;
+}
+
+#menusimpel li a:hover:not(.active) {
+  	background-color: #FFE4C4;
+  	color: white;
+}
+.box1{
+	background-color: lightgrey;
+  	width: 200px;
+  	height: 50px;
+  	background-color: #F5F5DC;
+  	transform: translate(1120px,-10px);
+  	text-align: center;
+  	font-size: 30px;
+}
+.icon1{
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+table {
+  position: fixed;
+  transform: translate(480px,50px);
+  text-align: center;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+#box {
+  width: 300px;
+  height: 80px;
+  background-color: pink;
+  border: 2px solid black;
+}
+
+
+#geser{
+  position: absolute;
+  transform: translate(500px,80px);
+}
+
+#box2 {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  background-color: #FFEBCD;
+  border: 2px solid black;
+  text-align: center;
+}
+/*.mainmenubtn {
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 100px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+    color:#fff;
+    background-color:#2E9EA2; 
+}*/
+#daftar ul{
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 70%;
+
+  height: 50%;
+  overflow: auto;
+}
+#daftar li a {
+  float: left;
+  display: block;
+  color: #000;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-align: left;
+  font-size: 20px;
+}
+#daftar li a.active {
+  background-color: #4CAF50;
+    color: white;
+}
+
+#daftar li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}

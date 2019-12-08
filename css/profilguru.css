@@ -18,7 +18,6 @@ body {
   height: 90%;
   overflow: auto;
   border-radius: 30px;
-  
 }
 
 #menusimpel li a {
@@ -42,7 +41,7 @@ body {
 }
 
 #menusimpel li a:hover:not(.active) {
-    background-color: #FFE4C4;
+    background-color: #DEB887;
     color: white;
 }
 
